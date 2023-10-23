@@ -1,0 +1,76 @@
+.container {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .content {
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    transition: transform 0.5s ease;
+  }
+
+  .dispNone {
+    display: none;
+  }
+
+  .heading1 {
+    font-style: oblique;
+    color: #1D71F2 !important;
+    padding-bottom: 20px;
+  }
+
+  .inputBack {
+    background-color:  #E3F4FE;
+  }
+
+  .inputPadding {
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 30%;
+  }
+
+  .weatherHeading {
+    position: relative;
+    top: 20%;
+  }
+
+  .weatherInfo {
+    position: relative;
+    top: 30%;
+  }
+
+  .spacingbet {
+    padding: 10px;
+  }
+
+  .closeBtn {
+    float: right;
+    background-color:  #FFFAE0;
+  }
+
+  .inputPadding:focus {
+    outline:2px solid #d3d3d3;
+  }
+  
+  .visible {
+    transform: translateX(0);
+  }
+  
+  .hidden {
+    transform: translateX(100%);
+  }
+
+  .container-height {
+    height: 100vh;
+  }
+
+  .listStyle {
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  
+  
